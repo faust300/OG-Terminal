@@ -1,0 +1,27 @@
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+max_line_length = 120
+tab_width = 4
+trim_trailing_whitespace = true
+
+[*.sass]
+indent_size = 2
+
+[*.scss]
+indent_size = 2
+
+[*.vue]
+indent_size = 4
+tab_width = 4
+
+[{*.ats,*.cts,*.mts,*.ts}]
+indent_size = 4
+tab_width = 4
+
+[{*.cjs,*.js,.sequelizerc}]
+indent_size = 4
+tab_width = 4
